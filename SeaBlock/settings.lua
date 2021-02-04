@@ -36,7 +36,7 @@ data:extend({
         name = "sb-fuel-tiers-solid",
         order = "effectivity-a2",
         setting_type = "startup",
-        default_value = "0.375, 0.5, 0.6, 0.7, 0.8, 0.9",
+        default_value = "0.75, 1.0, 1.2, 1.4, 1.6, 1.8",
     }})
 
 data:extend({
@@ -56,5 +56,5 @@ data:extend({
         name = "sb-fuel-tiers-fluid",
         order = "effectivity-b2",
         setting_type = "startup",
-        default_value = "0.0, 0.0, 0.9, 1.0, 1.1, 1.2",
+        default_value = "-, -, 1.0, 1.2, 1.4, 1.6",
     }})
